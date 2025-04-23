@@ -1,49 +1,85 @@
-*{
-	padding: 0;
-	margin: 0;
-	border: 0;
+body {
+  font-family: 'Roboto', 'Arial', 'Helvetica', sans-serif;
+  color: #434455;
+  letter-spacing: 2%;
+  font-size: 16px;
+  line-height: 150%;
 }
-*,*:before,*:after{
-	-moz-box-sizing: border-box;
-	-webkit-box-sizing: border-box;
-	box-sizing: border-box;
-}
-:focus,:active{outline: none;}
-a:focus,a:active{outline: none;}
 
-nav,footer,header,aside{display: block;}
+ul, a {
+  list-style: none;
+  text-decoration: none;
+}
 
-html,body{
-	height: 100%;
-	width: 100%;
-	font-size: 100%;
-	line-height: 1;
-	font-size: 14px;
-	-ms-text-size-adjust: 100%;
-	-moz-text-size-adjust: 100%;
-	-webkit-text-size-adjust: 100%;
+.top-logo, .logo-footer {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 117%;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: #4d5ae5;
 }
-input,button,textarea{font-family:inherit;}
 
-input::-ms-clear{display: none;}
-button{cursor: pointer;}
-button::-moz-focus-inner {padding:0;border:0;}
-a, a:visited{text-decoration: none;}
-a:hover{text-decoration: none;}
-ul li{list-style: none;}
-img{vertical-align: top;}
+.top-menu, .top-contact, .advent-paragraph, .text, .paragraph-footer {
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
 
-h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
-/*--------------------*/
-body{
-	font-family: 'Roboto', sans-serif
+.top-menu, .team-name, .advent-item, .portfolio-title {
+  font-size: 20px;
+  line-height: 120%;
+  color: #2e2f42;
 }
-.header{
-    display: flex;
+
+.top-contact, .advent-paragraph, .text, .paragraph-footer {
+  font-size: 16px;
+  line-height: 150%;
+  color: #434455;
 }
-.nav{
-	color: #2E2F42;
+
+.sections-intro, .footer {
+  background-color: #2e2f42;
 }
-.intro{
-    background-color: #2E2F42;
+
+.intro-text {
+  text-align: center;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 107%;
+  color: #fff;
 }
+
+.servis-btn {
+  background: #4d5ae5;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #fff;
+  cursor: pointer;
+}
+.servis-btn:hover,
+.servis-btn:focus {
+  color: #404BBF;
+}
+.top-menu:hover,
+.top-menu:focus{
+  color: #404BBF;
+}
+
+
+.head-sect, .section-team {
+  font-weight: 700;
+  font-size: 36px;
+  text-align: center;
+  color: #2e2f42;
+  background: #f4f4fd;
+  text-transform: capitalize;
+}
+
+.team-card {
+  background-color: #ffffff;
+}
+
