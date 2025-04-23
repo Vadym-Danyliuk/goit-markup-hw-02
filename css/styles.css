@@ -1,9 +1,10 @@
 body {
   font-family: 'Roboto', sans-serif;
-  color: #ffffff;
+  background-color: #ffffff;
   letter-spacing: 2%;
   font-size: 16px;
   line-height: 150%;
+  color: #434455
 }
 
 ul, a {
@@ -23,6 +24,12 @@ span{
   text-transform: uppercase;
   letter-spacing: 0.03em;
   color: #4d5ae5;
+}
+.top-menu-active{
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  font-size: 16px;
+  line-height: 1.5;
 }
 
 .top-menu{
@@ -55,15 +62,24 @@ span{
   font-style: normal;
 }
 .top-contact:hover,
-.top-contact:active{
+.top-contact:focus{
   color:#404bbf; 
 }
 
-.top-menu, .team-name, .advent-item, .portfolio-title {
+.top-menu {
+  
   font-size: 20px;
   line-height: 120%;
   color: #2e2f42;
 }
+.team-name ,.advent-item, .portfolio-title  {
+  font-size: 20px;
+  line-height: 120%;
+  color: #2e2f42;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+
 
 .top-contact, .advent-paragraph, .text {
   font-size: 16px;
@@ -112,6 +128,7 @@ span{
   background: #f4f4fd;
   text-transform: capitalize;
   letter-spacing: 0.02em;
+  line-height: 1.11 
 }
 .section-team {
   font-weight: 500;
