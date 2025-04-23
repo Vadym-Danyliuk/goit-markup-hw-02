@@ -30,6 +30,7 @@ span{
   letter-spacing: 0.02em;
   font-size: 16px;
   line-height: 1.5;
+  color: #2e2f42;
 }
 
 .top-menu{
@@ -102,13 +103,14 @@ span{
 
 .servis-btn {
   background: #4d5ae5;
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.04em;
   color: #fff;
   cursor: pointer;
-  font: inherit;
+ 
 }
 .servis-btn:hover,
 .servis-btn:focus {
@@ -117,6 +119,10 @@ span{
 .top-menu:hover,
 .top-menu:focus{
   color: #404BBF;
+}
+.top-menu-active:hover,
+.top-menu-active:focus{
+  color: #404BBF
 }
 
 
