@@ -1,6 +1,6 @@
 body {
-  font-family: 'Roboto', 'Arial', 'Helvetica', sans-serif;
-  color: #434455;
+  font-family: 'Roboto', sans-serif;
+  color: #ffffff;
   letter-spacing: 2%;
   font-size: 16px;
   line-height: 150%;
@@ -9,6 +9,9 @@ body {
 ul, a {
   list-style: none;
   text-decoration: none;
+}
+span{
+  color:  #2e2f42;
 }
 
 .top-logo, .logo-footer {
@@ -22,9 +25,36 @@ ul, a {
   color: #4d5ae5;
 }
 
-.top-menu, .top-contact, .advent-paragraph, .text, .paragraph-footer {
+.top-menu{
   font-weight: 500;
   letter-spacing: 0.02em;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.top-contact{
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+.advent-paragraph{
+  font-weight: 500;
+  letter-spacing: 0.02em;
+
+}
+.text{
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+.paragraph-footer {
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  color: #F4F4FD;
+}
+.top-adres{
+  font-style: normal;
+}
+.top-contact:hover,
+.top-contact:active{
+  color:#404bbf; 
 }
 
 .top-menu, .team-name, .advent-item, .portfolio-title {
@@ -49,6 +79,7 @@ ul, a {
   font-size: 56px;
   line-height: 107%;
   color: #fff;
+  letter-spacing: 0.02em;
 }
 
 .servis-btn {
@@ -59,10 +90,11 @@ ul, a {
   letter-spacing: 0.04em;
   color: #fff;
   cursor: pointer;
+  font: inherit;
 }
 .servis-btn:hover,
 .servis-btn:focus {
-  color: #404BBF;
+  background-color: #404BBF;
 }
 .top-menu:hover,
 .top-menu:focus{
@@ -70,16 +102,29 @@ ul, a {
 }
 
 
-.head-sect, .section-team {
-  font-weight: 700;
+.head-sect{
+  font-weight: 500;
   font-size: 36px;
   text-align: center;
   color: #2e2f42;
   background: #f4f4fd;
   text-transform: capitalize;
+  letter-spacing: 0.02em;
+}
+.section-team {
+  font-weight: 500;
+  font-size: 36px;
+  text-align: center;
+  color: #2e2f42;
+  background: #f4f4fd;
+  text-transform: capitalize;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
 }
 
 .team-card {
   background-color: #ffffff;
 }
-
+.footer-span{
+  color: #f4f4fd; 
+}
